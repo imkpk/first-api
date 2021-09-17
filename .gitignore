@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+clinet-message/node_modules
+server/node_modules
+/.pnp
+.pnp.js
+.idea
+.settings
+.vscode
+# testing
+clinet-message/coverage
+server/coverage
+
+# production
+/build
+
+# misc
+clinet-message/.DS_Store
+clinet-message/.env.local
+clinet-message/.env.development.local
+clinet-message/.env.test.local
+clinet-message/.env.production.local
+
+clinet-message/npm-debug.log*
+clinet-message/yarn-debug.log*
+clinet-message/yarn-error.log*
